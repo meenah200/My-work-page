@@ -5,7 +5,13 @@
 }
 
 body {
-  margin-top: 100px 0;
+  margin-top: 100px;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
 }
 
 h1 {
@@ -34,6 +40,10 @@ p {
 
 .navigation-links a {
   margin: 20px;
+  border-radius: 4px;
+  padding:20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
 }
 
 .primary-link {
@@ -62,11 +72,13 @@ p {
 }
 
 .about-paragraphs {
+  display:flex;
   margin: 30px 0;
 }
 
 .about-paragraphs p {
   margin: 10px;
+  text-align:center
 }
 
 .email-link {
