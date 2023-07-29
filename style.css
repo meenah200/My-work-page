@@ -8,12 +8,6 @@ body {
   margin-top: 100px 0;
 }
 
-h1,
-h2,
-h3 {
-  margin: 0;
-}
-
 h1 {
   font-size: 96px;
 }
@@ -85,6 +79,10 @@ p {
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+.email-link:visited{
+  color: var(--secondary-color);
 }
 
 @media (max-width: 576px) {
